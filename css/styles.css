@@ -15,6 +15,7 @@
 /* лого */
 .logo {
     color: #000000;
+    text-decoration: none;
 }
 
 .logo:hover,
@@ -29,6 +30,7 @@
 /* навігація */
 .site-nav a{
     color: var(--primary-text-color);
+    text-decoration: none;
 }
 
 .site-nav a:hover,
@@ -36,9 +38,18 @@
     color: var(--accent-text-color);
 }
 
+.studio.current{
+    color: var(--accent-text-color);
+}
+
+.portfolio.current{
+    color: var(--accent-text-color);
+}
+
 /* контакти */
 .contacts a{
     color: #757575;
+    text-decoration: none;
 }
 
 .contacts a:hover,
@@ -48,6 +59,7 @@
 
 .address a{
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .address a:hover,
@@ -72,6 +84,7 @@
 .solution-button:hover,
 .solution-button:focus{
     color: var(--accent-text-color);
+    background-color: #FFFFFF;
 }
 
 /* Чим ми займаємося */
@@ -107,6 +120,7 @@
 
 .logo-bottom {
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .logo-bottom:hover,
@@ -116,4 +130,26 @@
 
 .logo-half {
     color: var(--accent-text-color);
+}
+
+
+/* Портфоліо */
+
+.portfolio-button{
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    background-color: var(--accent-text-color);
+    color: #FFFFFF;
+}
+
+.section h3 {
+    color: var(--primary-text-color)
+}
+
+.section p {
+    color: #757575;
 }
