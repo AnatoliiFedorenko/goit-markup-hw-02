@@ -1,0 +1,119 @@
+/* colors #757575 #212121 #2196F3  */
+:root{
+    --primary-text-color: #212121;
+    --accent-text-color: #2196F3;
+}
+
+.page{ 
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+/* лого */
+.logo {
+    color: #000000;
+}
+
+.logo:hover,
+.logo:focus{
+    color: var(--accent-text-color);
+}
+
+.logo-half {
+    color: var(--accent-text-color);
+}
+
+/* навігація */
+.site-nav a{
+    color: var(--primary-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-text-color);
+}
+
+/* контакти */
+.contacts a{
+    color: #757575;
+}
+
+.contacts a:hover,
+.contacts a:focus {
+    color: var(--accent-text-color);
+}
+
+.address a{
+    color: #FFFFFF;
+}
+
+.address a:hover,
+.address a:focus {
+    color: var(--accent-text-color);
+}
+
+/* ефективні рішення */
+.solutions{
+    background-color: #2F303A;
+}
+
+.head-solution {
+    color: #FFFFFF;
+}
+
+.solution-button {
+    color: #FFFFFF;
+    background-color: var(--accent-text-color);
+}
+
+.solution-button:hover,
+.solution-button:focus{
+    color: var(--accent-text-color);
+}
+
+/* Чим ми займаємося */
+.examples{
+    background-color: #F5F5F5;
+}
+
+/* команда + переваги */
+.advantages{
+    background-color: #F5F5F5;
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-background li {
+    background-color: #FFFFFF;
+}
+
+.section h3 {
+    color: var(--primary-text-color)
+}
+
+.section p {
+    color: #757575;
+}
+
+/* Підвал */
+.bottom{
+    background-color: #2F303A;
+}
+
+.logo-bottom {
+    color: #FFFFFF;
+}
+
+.logo-bottom:hover,
+.logo-bottom:focus {
+    color: var(--accent-text-color);
+}
+
+.logo-half {
+    color: var(--accent-text-color);
+}
